@@ -45,5 +45,5 @@ node index.js
 
 ## Screenshots
 
-![App Screenshot](public/assets/screenshot1.png)
-![App Screenshot](public/assets/screenshot2.png)
+![App Screenshot](public/assets/exchanger1.png)
+![App Screenshot](public/assets/exchanger2.png)
