@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0B132B;
+    color: white;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 20px;
+    color: #5BC0BE;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+input {
+    font-size: 20px;
+}
+
+selector {
+    font-size: 16px;
+}
+
+button {
+    font-size: 20px;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0B132B;
+    margin-top: 100px;
+    position: relative;
+}
+
+#title {
+    margin-bottom: 32px;
+}
+
+.card {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    background-color: #1C2541;
+    border-radius: 16px;
+    color: white;
+    padding: 40px 32px;
+}
+
+.amount-input {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 8px;
+    width: 100%;
+}
+
+.selectors {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#exchanger-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    width: 100%;
+}
+
+.from-selector, .to-selector {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+}
+
+input {
+    background-color: #3A506B;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    height: 60px;
+}
+
+select {
+    height: 60px;
+    background-color: #3A506B;
+    border: none;
+    padding: 16px;
+    border-radius: 8px;
+    color: white;
+    width: 100%;
+}
+
+.selectors > * {
+    width: 48%;
+}
+
+.convert-button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    background-color: #5bc0beb7;
+    height: 60px;
+}
+
+button:hover {
+    background-color: #5BC0BE;
+}
+
+.result {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    gap: 32px;
+}
+
+hr {
+    width: 100%;
+    opacity: 20%;
+}
+
+#result-amount {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+@media(max-width: 600px) {
+    .card {
+        width: 95%;
+        padding: 32px 24px;
+    }
+}
