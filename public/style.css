@@ -8,6 +8,9 @@ body {
     background-color: #0b132b;
     color: white;
     font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -37,19 +40,18 @@ button {
 }
 
 main {
-    height: 100vh;
+    flex: 1;
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: #0b132b;
-    margin-top: 100px;
-    position: relative;
+    padding: 100px 16px 40px;
 }
 
 #title {
     margin-bottom: 32px;
+    text-align: center;
 }
-
 .card {
     margin-top: 64px;
     display: flex;
@@ -187,11 +189,8 @@ hr {
 footer {
     display: flex;
     justify-content: center;
-    position: absolute;
-    bottom: 16px;
-    left: 50%;
-    transform: translateX(-50%);
     width: 100%;
+    padding: 0 16px 16px;
 }
 
 @media (max-width: 600px) {
